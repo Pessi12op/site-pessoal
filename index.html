@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cauã - Site Pessoal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Cauã Luiz Pinto de Lima</h1>
+        <p class="tag">Estudante de Ciência da Computação • Desenvolvedor iniciante</p>
+      </div>
+      <nav class="main-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="sobre" class="card section-about">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Sobre Mim</h2>
+          <p>Olá! Meu nome é <strong>Cauã</strong>. Sou estudante de Ciência da Computação, tenho interesse em desenvolvimento web e segurança da informação. Atualmente estou no início do curso e procurando projetos práticos para aprender mais. Gosto de resolver problemas, criar coisas com código e colaborar em equipes.</p>
+          <p>Resumo rápido: curioso, proativo e com vontade de aprender.</p>
+        </div>
+        <div class="about-photo">
+          <img src="imagens/foto.jpg" alt="Imagem">
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="card">
+      <h2>Formação Acadêmica</h2>
+      <ul class="timeline">
+        <li>
+          <h3>Bacharelado em Ciência da Computação</h3>
+          <span class="meta">Faculdade Facy Wyden (Belém) — 2025 (em andamento)</span>
+          <p>Disciplinas de destaque: Arquitetura de Computadores, Redes, Introdução à Programação, HTML, CSS, JavaScrit, Python.</p>
+        </li>
+        <li>
+          <h3>Curso Técnico / Ensino Médio</h3>
+          <span class="meta">Ensino médio completo - Impacto | Cidade Nova - 2022
+        </li>
+      </ul>
+    </section>
+
+    <section id="experiencia" class="card">
+      <h2>Experiência & Projetos</h2>
+      <article class="exp-item">
+        <h3>Projeto: Nenhum projeto pessoal</h3>
+        <span class="meta">Projeto pessoal — 2025</span>
+        <p>Descrição rápida: Nenhum</p>
+      </article>
+
+      <article class="exp-item">
+        <h3>Trabalho/Estágio</h3>
+        <span class="meta">Por enquanto nenhum</span>
+        <p></p>
+      </article>
+    </section>
+
+    <section id="projetos" class="card">
+      <h2>Projetos</h2>
+      <ul class="projects">
+        <li>
+          <h4>Site Pessoal</h4>
+          <p>HTML e CSS puro, layout responsivo e seções bem definidas.</p>
+        </li>
+        <li>
+          <h4></h4>
+          <p></p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="habilidades" class="card">
+      <h2>Habilidades</h2>
+      <div class="skills">
+        <div class="skill-group">
+          <h4>Técnicas</h4>
+          <ul>
+            <li>HTML5 & CSS3 (flexbox, grid)</li>
+            <li>Python básico</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Interpessoais</h4>
+          <ul>
+            <li>Comunicação</li>
+            <li>Trabalho em equipe</li>
+            <li>Aprendizagem rápida</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="card contact">
+      <h2>Contato</h2>
+      <p>Quer conversar ou ver mais do meu trabalho? Me encontre:</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:seu.email@exemplo.com">caullima54@gmail.com</a></li>
+        <li>Telefone: <a href="tel:+550000000000">(91) 9 8161-1647</a></li>
+        <li>Link do site no GitHub: <a href="#">https://pessi12op.github.io/site-pessoal/</a></li>
+        <li>Link do repositório: <a href="#">https://github.com/Pessi12op/site-pessoal</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Cauã - Site pessoal • © <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script>
+    // atualiza o ano no rodapé
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
